@@ -1,0 +1,19 @@
+name: birdie_app
+description: A minimal Flutter client for uploading bird audio and receiving top-5 matches
+publish_to: 'none'
+version: 0.0.1
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  file_picker: ^5.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
